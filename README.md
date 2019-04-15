@@ -50,15 +50,14 @@ certain names(string) that has certain integer value, and getting an integer val
 name(string). Globally declared, so that it can be accessed from any part of the program (classes
 and functions)
 all classes (except for operation and glob_variable) is inherited from operation class
-Global Variables :
+11. Global Variables :
 ifstream* input_stream : pointer to ifstream, initialized in the main function, so that it will be able to
 be accesed from any part of the program.
 operation* p_operation_main : the pointer to the main code list, done this way to make the recursive
 function work.
 glob_variable global_variable : the object of the class glob_variable, that acts as a storage for
 variables.
-syntax :
-{
+12. syntax :
 var var_name value
 ex : var i 0
 will create a variable named i with value 0
@@ -101,4 +100,3 @@ do_this3
 stop
 endwhile=stop
 scan (var)i
-}
