@@ -73,16 +73,6 @@ void generate(string this_executable, string input_file(bob), string output_file
 will copy the current binary file, and paste the input_file into the end of the copied binary.
 when extract() is run, will extract the content and run it.
 }
-Testing :
-1. Write a .bob program, check if it runs correctly
-2. Write a c++ equivalent program, check if it runs correctly
-3. Compile both bob program and c++ program
-4. diff bob.out cpp.out
-5. if there are any difference(given that the logic of both programs are correct, then there is
-something wrong with the compiler, else it’s working fine)
-If the interpreter is working correctly, then diff will not show anything. I will write a bash script that
-will automatically check if diff returns anything. If it doesn’t it will print PASS else, it will print
-ERROR
 syntax :
 var var_name value
 ex : var i 0
