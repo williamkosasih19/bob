@@ -1,0 +1,26 @@
+// euclidean division algorithm for bob no recursion
+var a 0
+var one 1
+var b 0
+var temp 0
+prinsline a?
+scan a
+prinsline b?
+scan b
+if b > a
+	== temp b
+	== b a
+	== a temp
+stop
+stop
+while b > one
+	% temp a b
+	== a b
+	== b temp
+stop
+prins gcd=
+if b = one
+	prinsline 1
+stop
+	printline a
+stop

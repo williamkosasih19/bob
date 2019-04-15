@@ -1,0 +1,4 @@
+var i 10
+while i < hahaha
+  printline i
+stop

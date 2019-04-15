@@ -1,0 +1,28 @@
+var i 0
+var j 30
+for i to j +2
+   prins i
+   space
+   print i
+   space
+   space
+   space
+   prins j
+   space
+   printline j
+   + j 1
+stop
+var i 0
+var j 0
+for i to 10 +1
+   = j 0
+   for j to i +1
+      prins *
+   stop
+   newline
+stop
+var i 90
+var j 20
+for i to j -2
+   printline i
+stop

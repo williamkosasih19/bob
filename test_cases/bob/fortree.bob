@@ -1,0 +1,17 @@
+var i 0
+for i to 100 +1
+	printline i
+	if i > 9
+		break
+	else
+	endif	
+stop
+newline
+var i 0
+for i to 100 +1
+	if i > 9
+		break
+	else
+	endif
+	printline i
+stop

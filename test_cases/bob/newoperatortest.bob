@@ -1,0 +1,12 @@
+var c 0
+c = 96 % 2
+printline c
+c = 97 % 2
+printline c
+c = 100 + 5
+printline c
+c = 2
+while c < 1000
+	printline c
+	c = c * c
+endwhile

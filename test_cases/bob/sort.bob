@@ -1,0 +1,47 @@
+var size 0
+prins size?
+scan size
+array arr size
+var i 0
+var temp 0
+while i < size
+	prins enter
+	space
+	prins number
+	space
+	print i
+	space
+	scan temp
+	push arr i temp
+	i = i + 1
+stop
+i = 0
+while i < size
+	var j 0
+	while j < size
+		var jnext 0
+		jnext = j + 1
+		var cur 0
+		var next 0
+		pop cur arr j
+		pop next arr jnext
+		if cur > next
+			push arr j next
+			push arr jnext cur
+		stop
+		stop
+	j = j + 1
+	stop
+	i = i + 1
+stop
+i = 0
+prins sorted
+space
+prins array
+space
+while i < size
+	pop temp arr i
+	print temp
+	space
+	i = i + 1
+stop

@@ -1,0 +1,9 @@
+var test1 25
+var test2 20
+if test1 = test2
+	prinsline *
+	printline test1
+	printline test2
+stop
+	prinsline biggerthan
+stop

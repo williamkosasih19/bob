@@ -1,0 +1,9 @@
+var base 0
+var target 15
+var print_test 0
+while base < target
+	+ print_test 1
+	printline print_test
+	+ base 1
+stop
+printline target

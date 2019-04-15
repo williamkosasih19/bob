@@ -1,0 +1,12 @@
+var parrent 0
+var child 0
+var target 11
+while parrent < target
+	= child 0
+	while child < parrent
+		print child
+		+ child 1
+	stop
+	printline parrent
+	+ parrent 1
+stop

@@ -1,0 +1,27 @@
+var a 0
+var b 1
+var c 0
+var times 0
+var check 1
+var target 0
+scan target
+if target = 0
+	prinsline 0
+	= check 0
+stop
+stop
+if target = 1
+	prinsline 1
+	= check 0
+stop
+stop
+if check = 1
+while times < target
+	++ c a b
+	== a b
+	== b c
+	+ times 1
+stop
+printline b
+stop
+stop

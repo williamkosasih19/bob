@@ -1,0 +1,14 @@
+array me 10
+var i 0
+for i to 10 +1
+	push me i i
+stop
+var j 0
+var k 0
+var l 0
+pop j me 0
+pop k me 5
+pop l me 9
+printline j
+printline k
+printline l

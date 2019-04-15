@@ -1,0 +1,14 @@
+var prev2 1 
+var prev 3
+var n 0
+var curr 0
+scan n
+var i 3
+while i < n
+  = curr 0
+  ++ curr prev prev2
+  == prev2 prev
+  == prev curr
+stop
+printline curr
+stop

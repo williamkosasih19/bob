@@ -1,0 +1,8 @@
+var base 100
+var target 15
+var endtest 99
+while base > target
+	printline base
+	+ base -1
+stop
+printline endtest

@@ -1,0 +1,40 @@
+var top 100
+var A 84
+var B 69
+var C 49
+var D 24
+var bot -1
+var grade 0
+prins please
+space
+prins enter
+space
+prins your
+space
+prinsline grade
+scan grade
+prins Grade
+space
+prins :
+space
+if grade > top
+	prinsline invalid!
+stop
+if grade > A
+	prinsline A
+stop
+if grade > B
+	prinsline B
+stop
+if grade > C
+	prinsline C
+stop
+if grade > D
+	prinsline D
+stop
+if grade > bot
+	prinsline F
+stop
+	prinsline invalid!
+stop
+	prinsline whereisthis

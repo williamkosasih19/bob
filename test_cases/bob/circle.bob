@@ -1,0 +1,27 @@
+var x -20
+var y -20
+var x_square 0
+var y_square 0
+var both_square 0
+var radius 0
+var target 21
+prins radius?
+space
+prinsline (0-20)
+scan radius
+while y < target
+	= x -20
+	while x < target
+		** x_square x x
+		** y_square y y
+		++ both_square x_square y_square
+		if both_square = radius
+			prins *
+		stop
+			space
+		stop
+		+ x 1
+	stop
+	newline
+	+ y 1
+stop

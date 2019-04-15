@@ -1,0 +1,17 @@
+var i 0
+while i < 10
+  printline i
+  + i 1
+stop
+= i 0
+var 10 20
+while i < 10
+  printline i
+  + i 1
+stop
+var 10 100
+= i 0
+while i < 10
+  printline i
+  + i 1
+stop

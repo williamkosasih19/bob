@@ -1,0 +1,56 @@
+var a 0
+var b 0
+var c 0
+var d 0
+var e 0
+var target 20
+while a < target
+   = b 0
+   while b < target
+      = c 0
+      while c < target
+         = d 0
+         while d < target
+
+
+
+
+
+
+
+
+
+
+	// TEST THIS
+
+            = e 0
+            while e < target
+               print a
+               space
+               print b
+               space
+               print c
+               space
+               print d
+               space
+
+
+
+
+
+
+
+               print e
+               newline
+               + e 1
+            stop
+            + d 1
+         stop
+         + c 1
+      stop
+      + b 1
+   stop
+   + a 1
+stop
+
+

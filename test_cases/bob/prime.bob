@@ -1,0 +1,24 @@
+var zero 0
+var one 1
+var current_num 1
+var current_num_target 2
+var mod_ctr 0
+var two 2
+var mod_res 0
+while zero < one
+	== current_num current_num_target
+	= mod_ctr 0
+	while current_num > zero
+		% mod_res current_num_target current_num
+		if mod_res = zero
+			+ mod_ctr 1
+		stop
+		stop
+		- current_num 1
+	stop
+	if mod_ctr = two
+		printline current_num_target
+	stop
+	stop
+	+ current_num_target 1
+stop

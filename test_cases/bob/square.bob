@@ -1,0 +1,21 @@
+var x -50
+var y -50
+var x_square 0
+var y_square 0
+var both_square
+var radius 0
+var target 50
+while y < target
+	while x < target
+		** x_square x x
+		** y_square y y
+		++ both_square x_square y_square
+		if both_square = radius
+			prins *
+		stop
+		stop
+		+ x 1
+	stop
+	prinsline .
+	+ y 1
+stop
