@@ -57,23 +57,8 @@ operation* p_operation_main : the pointer to the main code list, done this way t
 function work.
 glob_variable global_variable : the object of the class glob_variable, that acts as a storage for
 variables.
-functions :
-void determine(operation* cur_op)
-{
-recursive function, will take pointer to operation , and will do cur_op-
->add_operation(operation*) when a command is found.
-}
-void extract(string filename)
-{
-will extract the code from inside the executable and store it to ".code", will then call
-determine_helper to start executing the command
-}
-void generate(string this_executable, string input_file(bob), string output_filename)
-{
-will copy the current binary file, and paste the input_file into the end of the copied binary.
-when extract() is run, will extract the content and run it.
-}
 syntax :
+{
 var var_name value
 ex : var i 0
 will create a variable named i with value 0
@@ -116,6 +101,4 @@ do_this3
 stop
 endwhile=stop
 scan (var)i
-will ask user for input(integer) then store the input into variable i
-automatic testing : check and compare if the output produced by the .bob files is the same as .cpp
-file.
+}
